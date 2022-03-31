@@ -1,0 +1,114 @@
+.cardstitulos{
+    display: flex;
+    flex-direction: row;
+    padding: 64px 152px 16px 152px;
+}
+
+.titulocards{
+    width: 50%;
+    font-size: 32px;
+    font-weight: 700;
+}
+.vertodocards{
+    width: 50%;
+    text-align: right;
+    font-size: 16px;
+    font-weight: 700;
+    color: #2A7AE4;
+}
+
+.cards{
+    display: flex;
+    flex-direction: row;
+    padding: 0 152px;
+    justify-content: space-between;
+    
+}
+.card{
+    display: grid;
+    width:176px;
+    border: none;
+}
+.card p{
+    margin-bottom: 2px;
+}
+
+.cardImg{
+    width: 176px;
+    height: 174px;
+}
+
+.tituloDesc {
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.precioDesc{
+    font-size: 16px;
+    font-weight: 700;
+}
+.pieDesc{
+    font-size: 16px;
+    font-weight: 700;
+    color: #2A7AE4;
+}
+
+
+
+
+@media screen and (max-width:768px) {
+   
+    .cardstitulos{
+        padding: 32px 32px 16px 32px;
+    }
+    .titulocards{
+        font-size: 22px;
+    }
+    .card:nth-child(6),.card:nth-child(5){
+        display: none;
+        grid-column: none;
+        grid-row: none;
+
+    }
+    .cardImg{
+        width: 164px;
+        height: 174px;
+    }
+    .cards{
+        padding: 0 32px;
+    }
+
+    .card{
+        display: flex;
+        width:164px;
+        border: none;
+    }
+    
+}
+
+
+@media screen and (max-width:360px) {
+   
+    .cardstitulos{
+        padding: 16px;
+    }
+   
+    
+    .cardImg{
+        width: auto;
+        height: 174px;
+    }
+    .cards{
+        padding: 0 16px;
+        flex-wrap: wrap;
+    }
+
+    .card{
+        margin: 2px 0px;
+        display: flex;
+        width: 156px;
+        border: none;
+        
+    }
+    
+}
