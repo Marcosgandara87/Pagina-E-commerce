@@ -1,6 +1,7 @@
 body{
 width: 100vw;
 font-family: 'Raleway', sans-serif;
+min-width: 300px;
 }
 main{
     margin-bottom: 100px;

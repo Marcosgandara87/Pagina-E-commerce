@@ -4,11 +4,10 @@
     font-size: 16px;
     font-weight: 500;
     height: 226px;
-    margin-left: 50px;
 }
 .lstfoot li{
-    flex-wrap: wrap;
-    margin-bottom: 24px;
+    
+    margin-bottom: 10%
 }
 
 .logofoot{
@@ -16,6 +15,7 @@
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
+    justify-content:space-evenly
 }
 .imgfoot{
     height: 100%;
@@ -30,6 +30,7 @@
     width: 100%;
     height: 56px; 
     margin-bottom: 10px;
+    border: none;
 }
 
 
@@ -37,6 +38,7 @@
     width: 100%;
     height: 83px;
     margin-bottom: 10px;
+    border: none;
 }
 
 
@@ -55,12 +57,16 @@
     height: 364px;
     padding: 50px 152px;
     flex-direction: row;
-    align-items: center;
     font-size: 14px;
     font-weight: 400;
     background: #EAF2FD;
     align-items:flex-start;
+    
 }
+.foot p{
+  font-weight: 700;
+}
+
 
 
 
@@ -85,13 +91,20 @@
         margin: 0;
         padding: 0;
     }
-
+    .imgfoot img{
+        
+        height: 100%;
+    }
 
     .logofoot{
         width: 50%;
         display: flex;
         flex-direction: column;
-        flex-wrap: wrap;
+        
+    }
+    .lstfoot li{
+    
+        margin-bottom: 7%;
     }
     
 }
@@ -123,17 +136,18 @@
         width: 100%;
         display: flex;
         flex-direction: column;
-        flex-wrap: wrap;
+        
         text-align: center;
     }
     
     .contactofoot{
         width: 100%;
+        
     }
 
     .lstfoot li{
-        flex-wrap: wrap;
-        margin-bottom: 16px;
+        margin-bottom: 4%;
+        
     }
 
 }
