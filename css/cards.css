@@ -87,7 +87,7 @@
 }
 
 
-@media screen and (max-width:360px) {
+@media screen and (max-width:420px) {
    
     .cardstitulos{
         padding: 16px;
@@ -106,7 +106,7 @@
     .card{
         margin: 2px 0px;
         display: flex;
-        width: 156px;
+        width: 49%;
         border: none;
         
     }
