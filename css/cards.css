@@ -1,7 +1,8 @@
 .cardstitulos{
     display: flex;
     flex-direction: row;
-    padding: 64px 152px 16px 152px;
+    
+    padding: 3% 9% .5% 9%;
 }
 
 .titulocards{
@@ -20,8 +21,8 @@
 .cards{
     display: flex;
     flex-direction: row;
-    padding: 0 152px;
-    justify-content: space-between;
+    padding: 0% 9%;
+    justify-content: space-evenly;
     flex-wrap: wrap;
     
 }
@@ -29,6 +30,8 @@
     display: grid;
     width:176px;
     border: none;
+    margin-right: 1%;
+    
 }
 .card p{
     margin-bottom: 2px;
@@ -78,6 +81,7 @@
     .cards{
         padding: 0 32px;
         
+        
     }
 
     .card{
@@ -97,7 +101,7 @@
    
     
     .cardImg{
-        width: auto;
+        width: 100%;
         height: 174px;
     }
     .cards{

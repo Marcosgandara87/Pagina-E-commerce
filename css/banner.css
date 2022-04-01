@@ -5,19 +5,24 @@
     background-image: url(../img/banner-image1.png);
     background-repeat: no-repeat;
     color: white;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: flex-end;
 }
 
 .bannerimagen h1{
-    padding-top: 160px;
+    
+    width: 100%;
     font-size: 52px;  
-    margin-left: 152px;
+    margin-left: 9%;
     font-weight: 700;
     
     
 }
 .bannerimagen h3{
+    width: 100%;
     font-size: 22px; 
-    margin-left: 152px;
+    margin-left: 9%;
     
 }
 .bannerimagen button{
@@ -27,7 +32,8 @@
     
     font-size: 16px;
     color: #FFFFFF;
-    margin-left: 152px;
+    margin-left: 9%;
+    margin-bottom: 2%;
     padding: 1%;
 }
 

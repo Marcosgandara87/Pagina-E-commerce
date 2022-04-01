@@ -1,0 +1,38 @@
+#imgProducto{
+    width: 50%;
+    height: 50%;
+}
+
+.detalleProducto{
+    display: flex;
+    padding: 2% 9%;
+}
+
+.infoProducto{
+    padding: 2%;
+    text-align: left;
+    display: flex;
+    align-items:baseline;
+    flex-direction: column;
+    justify-content: center;
+}
+
+
+
+@media screen and (max-width:420px) {
+    #imgProducto{
+        width: 100%;
+        
+    }
+    
+    .detalleProducto{
+        display: flex;
+        flex-direction: column;
+        padding: 0;
+    }
+    
+   
+    
+
+    
+}
