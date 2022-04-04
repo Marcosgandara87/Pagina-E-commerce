@@ -25,13 +25,19 @@
     justify-content: space-evenly;
     flex-wrap: wrap;
     
+    
 }
 .card{
     display: grid;
-    width:176px;
+    width: 176px;
     border: none;
-    margin-right: 1%;
     
+    
+}
+
+.cards:last-child{
+    padding-right: 0%;
+
 }
 .card p{
     margin-bottom: 2px;
@@ -68,12 +74,7 @@
     .titulocards{
         font-size: 22px;
     }
-    .card:nth-child(6),.card:nth-child(5){
-        display: none;
-        grid-column: none;
-        grid-row: none;
-
-    }
+    
     .cardImg{
         width: 164px;
         height: 174px;
@@ -89,7 +90,9 @@
         width:164px;
         border: none;
     }
-    
+
+
+
 }
 
 
@@ -107,13 +110,15 @@
     .cards{
         padding: 0 16px;
         flex-wrap: wrap;
+        justify-content: space-between;
     }
 
     .card{
         margin: 2px 0px;
         display: flex;
-        width: 49%;
+        width: 47%;
         border: none;
+        
         
     }
     

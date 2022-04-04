@@ -18,4 +18,11 @@ main{
     main{
         margin-bottom: 50px;
     }
-  } 
+    .card:nth-child(6),.card:nth-child(5){
+        display: none;
+        grid-column: none;
+        grid-row: none;
+
+    }
+
+} 
